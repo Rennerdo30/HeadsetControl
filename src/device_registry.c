@@ -5,8 +5,8 @@
 #include "devices/logitech_g533.h"
 #include "devices/logitech_g633.h"
 #include "devices/logitech_g930.h"
-#include "devices/logitech_g933.h"
 #include "devices/steelseries_arctis.h"
+#include "devices/logitech_g933_935.h"
 
 #include <string.h>
 
@@ -22,7 +22,7 @@ void init_devices()
     g533_init(&devicelist[2]);
     g633_init(&devicelist[3]);
     g930_init(&devicelist[4]);
-    g933_init(&devicelist[5]);
+    g933_935_init(&devicelist[5]);
     arctis_init(&devicelist[6]);
 }
 
